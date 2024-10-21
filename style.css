@@ -107,6 +107,16 @@ body {
   color: var(--color-grey-900);
 }
 
+footer {
+  position: absolute;
+  bottom: 8px;
+  color: var(--color-white);
+
+  a {
+    color: var(--color-green);
+  }
+}
+
 /* Media Queries */
 @media screen and (max-width: 620px) {
   .container {
